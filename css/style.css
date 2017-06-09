@@ -1,0 +1,336 @@
+@charset "UTF-8";
+.task13-head img{
+    width: 35px;
+    height:30px;
+}
+.task13-con p{
+    color: #9a9a9a;
+    font-size: 30px;
+    text-align: center;
+}
+.task13-box h3{
+    color: #fbb435;
+    font-size: 32px;
+    border-bottom: 1px solid #fbb435;
+}
+.box-con h4{
+    background-color: #69d1e9;
+    margin:50px 100px 0 100px;
+    padding: 50px;;
+    font-size: 30px;;
+}
+.box-con p{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #787878;
+}
+.box-con span{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;;
+    background-color: #f0f0f0;
+    margin:10px 5px;
+
+}
+.box-con .span1{
+    background-color:  #69d1e9;
+}
+.icon-con{
+    position: relative;
+}
+.icon-con .icon{
+    width: 30px;
+    height: 60px;;
+    position: absolute;
+    top:20%;
+    right:5%;
+}
+.task13-2-box h3{
+    font-size: 34px;
+}
+.task13-2-box img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+.task13-1-con p{
+    font-size:30px;
+    color: #333;
+    background-color: #b9e9f5;
+    padding-left: 80px;
+    position: relative;
+}
+.task13-1-con p img{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+.task13-1-con audio{
+  width: 500px;
+    height: 200px;
+    display: block;
+}
+.sanjiao{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #b9e9f5 transparent transparent transparent;
+}
+.dianj{
+    font-size: 30px;
+    padding-left: 10%;
+}
+
+.content-box{
+    height: 210px;
+    width: 100%;
+}
+.content-box .box1{
+    width: 33.3%;
+
+    float: left;
+
+}
+
+.box1-name{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    margin: 10px auto 20px auto;
+}
+/*.box1-what{*/
+/*width: 132px;*/
+/*height: 30px;*/
+/*}*/
+@media screen and (max-width: 370px) {
+    .box1-name {
+        width:76px;
+        height: 76px;
+
+    }
+    .content-box{
+        height: 105px;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 450px){
+    .box1-name {
+        width:92px;
+        height: 92px;
+    }
+    .content-box{
+        height: 150px;
+        width: 100%;
+    }
+}
+.game-name{
+    width: 100%;
+    height:70%;
+    background-color: #f5c97b;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+}
+.game-num{
+    width: 100%;
+    height:30%;
+    background-color: #83b09a;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color: #ffffff;
+}
+.box1-what{
+    width: 240px;
+    height:50px;
+    visibility: hidden;
+    margin:10px auto;
+    background: url("../images/sprites7.png") no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+
+}
+/*@media screen and (max-width: 370px){*/
+    /*.box1-what{*/
+        /*width:76px;*/
+        /*height:16px;*/
+        /*background: url("../images/sprites7-mini.png") no-repeat;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 450px){*/
+    /*.box1-what{*/
+        /*width:76px;*/
+        /*height:16px;*/
+        /*background: url("../images/sprites7-mini.png") no-repeat;*/
+
+    /*}*/
+/*}*/
+
+.box1-what span{
+    width:30px;
+    height:30px;
+    margin-left: 4px;
+}
+/*@media screen and (max-width: 370px){*/
+    /*.box1-what span{*/
+        /*width:20px;*/
+        /*height:20px;*/
+    /*}*/
+/*}*/
+/*@media screen and (max-width: 450px){*/
+    /*.box1-what span{*/
+        /*width:25px;*/
+        /*height:25px;*/
+    /*}*/
+/*}*/
+/*.mini1 {*/
+    /*background-position: 0 0;*/
+    /*width:30px;*/
+    /*height:30px;*/
+/*}*/
+/*.mini2 {*/
+    /*background-position: -34px 0;*/
+/*}*/
+/*@media screen and (max-width: 370px){*/
+    /*.mini2{*/
+        /*background-position: -20px 0;*/
+    /*}*/
+/*}*/
+/*.mini3 {*/
+    /*background-position: -68px 0;*/
+/*}*/
+/*@media screen and (max-width: 370px){*/
+    /*.mini4{*/
+        /*background-position: -40px 0;*/
+    /*}*/
+/*}*/
+/*.mini4 {*/
+    /*background-position: -102px 0;*/
+/*}*/
+/*@media screen and (max-width: 370px){*/
+    /*.mini4{*/
+        /*background-position: -60px 0;*/
+    /*}*/
+/*}*/
+.hidden-div span{
+    width:30px;
+    height:30px;
+    display: inline-block;
+    margin-left: 4px;
+}
+.box1:hover .box1-what{
+    visibility:visible;
+}
+.footer-vote{
+
+    background-color: #29bde0;
+    width: 100%;
+
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    z-index: 99;
+}
+.footer-vote a{
+    display: block;
+}
+.footer-vote input{
+    padding: 30px;
+    font-size: 30px;
+    /*height:45px;*/
+    width: 80%;
+    background-color: #fbb435;
+    border: none;
+    color: white;
+    margin:25px;
+    outline: none;
+}
+.task13-3-con img{
+    margin-top: 20px;
+    width: 400px;
+    height: 250px;;
+}
+.task13-3-con .p1{
+    font-size: 32px;
+    font-weight:bold;
+    color: #ffc865;
+    padding:20px 10%;
+}
+.task13-3-con .div1{
+    text-align: left;
+    padding:20px 10%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.task13-3-con .div1 span{
+    margin-right: 40px;
+}
+.task13-3-time{
+    padding:20px 10%;
+}
+.task13-3-time .p11{
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 5px;
+}
+.task13-3-time .p11 span{
+    font-size: 28px;
+    color:#e4e4e4 ;
+
+}
+.task13-3-time .p12{
+    /*font-size: px;*/
+    color: #a6a6a6;
+    font-weight: normal;
+}
+.task13-3-time{
+    border-bottom: 1px solid #999;
+}
+.footer-result{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color:rgba(41,189,224,0.5);
+    padding: 25px 0;
+    z-index: 99;
+}
+.footer-result span{
+    display: inline-block;
+    width: 50%;
+}
+.footer-result a{
+    width: 50%;
+    float: left;
+}
+.footer-result input{
+    padding: 30px;
+    font-size: 30px;
+    margin:0 10%;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.footer-result .again-btn{
+    background-color: #f66f6f;
+
+}
+.footer-result .share-btn{
+    background-color: #fbb435;
+}
